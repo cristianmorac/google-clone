@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #B7E1E4;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.content-header {
+    height: 60px;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    padding: 15px 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #3d3c3c;
+    font-weight: 400;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar .menu {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border: thin solid #0000;
+    width: 40px;
+    height: 40px;
+}
+
+.navbar .menu:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(211, 212, 211);
+}
+
+.navbar .menu i {
+    width: 20px;
+    height: 20px;
+}
+
+.login-p{
+    background-color:#78909C;
+    border-radius: 50%;
+    display: flex;
+    padding: 10px 15px;
+}
+
+.letra{
+    /* justify-content: center;
+    align-items: center; */
+    font-weight: 400;
+    color: #ffff;
+    background-color:#78909C;
+}
+
+
+/* Logo */
+.hero{
+    height: 140px;
+    padding-block: 20px;
+    text-align: center;
+}
+
+/* Buscador: Search */
+.search {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-content{
+    width: 43%;
+    height: 50px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 5% 75% 10%;
+    align-content: center;
+    border: thin solid #ddd8d8;
+    border-radius: 30px;
+}
+
+.search-content:hover {
+    box-shadow: 1px black;
+}
+
+.search-content from input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
+
+.search-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.search-buttons a{
+    width: auto;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #3d3c3c;
+    font-weight: 400;
+}
+
+.search-buttons:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px rgba(60, 64, 67, 0.15) 0px 1px 2px 0px;
+}
+
+
